@@ -25,12 +25,6 @@ public class Journal
             newEntry.Date = entryElements[1];
             newEntry.Prompt = entryElements[2];
             newEntry.EntryText = entryElements[3];
-
-            // Console.WriteLine($"{newEntry.IDTime}");
-            // Console.WriteLine($"{newEntry.Date}");
-            // Console.WriteLine($"{newEntry.Prompt}");
-            // Console.WriteLine($"{newEntry.EntryText}");
-            // Thread.Sleep(1000);
             
             Entries.Add(newEntry);
         }

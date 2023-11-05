@@ -63,7 +63,3 @@ class Program
     }
 }
 
-// ▄▌▐▀220 ░▒▓176█219
-        // Console.WriteLine("\t Test \a");
-        // Console.Beep();
-        // https://learn.microsoft.com/en-us/dotnet/api/system.console.beep?view=netframework-4.8

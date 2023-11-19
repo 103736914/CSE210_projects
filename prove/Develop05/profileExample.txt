@@ -1,4 +1,4 @@
-Example|||117
+Example|||121
 singlegoal|||Do a thing one time.|||2|||1
 multigoal|||Do a different thing worth twice the points a couple of times.|||4|||2|||2
 multigoal|||Do a harder thing (will take a while) worth thrice the original points three times.|||6|||1|||3

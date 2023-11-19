@@ -18,7 +18,7 @@ public class Profile
     {
         for (int i = 1; i <= _goals.Count(); i++)
         {
-            Console.Write($"{i}     ");
+            Console.Write($"{i}".PadRight(6));
             _goals[i-1].DisplayGoal();
             Console.WriteLine();
         }
@@ -65,7 +65,7 @@ public class Profile
                     Console.Write("\nHow many times do you want to accomplish this goal?\n>>> ");
                     Program.UserInput2 = Console.ReadLine();
                     int repetition;
-                    while (!int.TryParse(Program.UserInput2, out points))
+                    while (!int.TryParse(Program.UserInput2, out repetition))
                     {
                         Console.Write("\nPlease enter a number. How many times do you want to accomplish this goal?\n>>> ");
                         Program.UserInput2 = Console.ReadLine();

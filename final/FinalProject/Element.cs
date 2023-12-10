@@ -1,9 +1,16 @@
-public  class Element
+public class Element
 {
     public string Name { get; set;} = "<<An error has occured>>";
 
     public Element()
-    {}
+    {
+        Console.Clear();
+        Console.Write($"Please provide a name for your new {GetType()}.\n>>> ");
+        Name = Console.ReadLine();
+        Console.WriteLine($"{Name} created. Press Enter to continue.");
+        Console.ReadLine();
+        Console.Clear();
+    }
 
     public int RunMenu(string menu, int options)
     {
